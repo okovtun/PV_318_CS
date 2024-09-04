@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.34930.48
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroductionToDOTNET", "IntroductionToDOTNET\IntroductionToDOTNET.csproj", "{1AAFA4C0-1394-427D-A381-7A23B96121FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypes", "DataTypes\DataTypes.csproj", "{D006D216-CD47-45EC-AE96-0EF1CF36209B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AAFA4C0-1394-427D-A381-7A23B96121FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AAFA4C0-1394-427D-A381-7A23B96121FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AAFA4C0-1394-427D-A381-7A23B96121FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AAFA4C0-1394-427D-A381-7A23B96121FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D006D216-CD47-45EC-AE96-0EF1CF36209B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D006D216-CD47-45EC-AE96-0EF1CF36209B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D006D216-CD47-45EC-AE96-0EF1CF36209B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D006D216-CD47-45EC-AE96-0EF1CF36209B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56580500-8ED9-4576-9102-D45D4A4FA79A}
+	EndGlobalSection
+EndGlobal
