@@ -74,6 +74,20 @@ namespace Encapsulation
 			res.Y = left.Y + right.Y;
 			return res;
 		}
+		public static Point operator ++(Point obj)
+		{
+			obj.X++;
+			obj.Y++;
+			return obj;
+		}
+		public static bool operator ==(Point left, Point right)
+		{
+			return left.X == right.X && left.Y == right.Y;
+		}
+		public static bool operator !=(Point left, Point right)
+		{
+			return !(left == right);
+		}
 
 		//				Methods:
 		public void Print()
