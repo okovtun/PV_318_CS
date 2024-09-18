@@ -1,8 +1,14 @@
 https://www.youtube.com/playlist?list=PLeqyOOqxeiINrpVAsLYBUiCtYTBtH5LiZ
 
+TODO:
+1. Добавить в иерархию класс Graduate, описываюший дипломника;
+2. Создать массив Human[] group, состоящий из стедентов, преподавателей и дипломников;
+3. Сохранить группу в файл;
+4. Загрузить группу из файла;
+
 IEEE-754
 
-TODO:
+DONE:
 1. Арифметические операторы: /, +, -;		DONE
 2. Increment/Decrement ++/--;				DONE
 3. Составные присваивания: +=, -=, *=, /=;	DONE
