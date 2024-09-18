@@ -35,7 +35,18 @@ namespace Fraction
 			Fraction C = new Fraction(A * B);
 			A.Print();
 			B.Print();
-			C.Print();
+			//C.Print();
+			//Console.WriteLine(A / B);
+			A *= B;
+			Console.WriteLine(A);
+			A /= B;
+			Console.WriteLine(A);
+
+			for (Fraction i = new Fraction(1, 2); i < new Fraction(10); i++)
+			{
+				Console.Write(i + "\t");
+			}
+			Console.WriteLine();
 		}
 	}
 }
